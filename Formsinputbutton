@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione App Music Streaming</title>
+</head>
+<body>
+    <h1>Iscriviti per iniziare ad ascoltare</h1>
+    <form onsubmit="alert('Registrazione Inviata!')">
+        <div>
+            Nome:<input type="text" placeholder="Mario"> 
+        </div>
+        <div>
+            Cognome:<input type="text" placeholder="Rossi">
+        </div>
+        <div>
+            Indirizzo email:<input type="email" placeholder="mario.rossi@gmail.com">
+        </div>
+        <div>
+            Password:<input type="password" placeholder="Inserisci la tua password">
+        </div>
+        <div>
+            Data di nascita:<input type="date"> 
+        </div>
+        <div>
+            Telefono:<input type="number" placeholder="Inserisci il tuo numero">
+        </div>
+        <div>
+            Quali sono i tuoi gusti musicali preferiti?
+            <br>
+            <input type="checkbox" id="pop" name="pop">Pop
+            <input type="checkbox" id="rock" name="rock">Rock
+            <input type="checkbox" id="jazz" name="jazz">Jazz
+            <input type="checkbox" id="lofi" name="lofi"> Lo-fi
+        </div>
+        <div>
+           <input type="radio"> Cliccando qui dichiari di aver letto ed accettato i termini e condizioni di utilizzo.
+        </div>
+        <div>
+            <button type="submit">Invia Registrazione</button>
+        </div>
+    </form>
+</body>
+</html>
